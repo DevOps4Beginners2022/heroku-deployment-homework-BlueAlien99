@@ -10,6 +10,6 @@ COPY . .
 RUN go mod download
 RUN go build -o app-server
 
-CMD ["app"]
+CMD ["app-server"]
 
 EXPOSE $PORT
